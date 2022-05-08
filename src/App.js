@@ -1,13 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+
+import calandmum from './assets/calandmum.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <img src={calandmum} className="App-logo" alt="logo" />
+        <h1>
           Mel Day is Epic
+        </h1>
+        <p>
+          An epic mum, epic friend, epic creator.
+        </p>
+        <p>
+          Love you so much mum!
         </p>
         <a
           className="App-link"
